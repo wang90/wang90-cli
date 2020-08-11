@@ -5,9 +5,8 @@ import "./css/config.less";
 import "./libs/rem";
 import VueCookies from 'vue-cookies'
 import ElementUI from 'element-ui';
-
-import router from "./router";
-import store from "./vuex";
+import router from "./router/index";
+import store from "./vuex/index";
 
 Vue.use(ElementUI);
 Vue.use(VueCookies);

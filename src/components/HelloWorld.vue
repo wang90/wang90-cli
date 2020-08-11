@@ -3,7 +3,11 @@
       hello word 
     </div>
 </template>
-
+<style lang="css">
+.hello-world{
+  width: 200px;
+}
+</style>
 <script>
 export default {
   name: 'HelloWorld',
