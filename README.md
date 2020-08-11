@@ -1,24 +1,26 @@
 # wang90-cli
 
-## Project setup
+### action
+#### Project setup
 ```
+git clone https://github.com/wang90/wang90-cli.git
+rm -rf .git && git init
 npm install
 ```
+##### Project Start 
+````
+npm start
+````
+##### Project Build
+````
+npm run-script build
+````
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Plugs
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- vuex
+- vue-router
+- postcss-pxtorem
+- less
+- axios
+- element-ui
