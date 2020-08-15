@@ -1,6 +1,8 @@
 # 自建扩展vue-cli工具
 * 方便个人搭建前端项目，涵盖 vue-cli 全部功能  
-* 添加axios、postcss-pxtorem 、element-ui等插件
+* 添加 axios、postcss-pxtorem 、element-ui等插件
+
+【需要需要改进为下载后的全局变量】
 
 #### Project setup
 ```
